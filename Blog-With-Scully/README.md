@@ -1,6 +1,16 @@
 # MyBlog
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.12.
+This project is an example of how to combine Angular framework with Scully library.
+I followed feature based modules approach with lazy loading.
+
+## File Structure
+
+`src/app/core` -> contains commonly used components that are fixed like header navigation.\
+`src/app/shared` -> contains shareable components.\
+`src/app/contact` ->  contains flat structure for contact component.\
+`src/app/articles` ->  contains flat structure for articles component with scully selector in html file.
+
 
 ## Development server
 
