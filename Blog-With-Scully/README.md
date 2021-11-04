@@ -9,7 +9,7 @@ I followed feature based modules approach with lazy loading.
 `src/app/core` -> contains commonly used components that are fixed like header navigation.\
 `src/app/shared` -> contains shareable components.\
 `src/app/contact` ->  contains flat structure for contact component.\
-`src/app/articles` ->  contains flat structure for articles component with scully selector in html file.\
+`src/app/articles` ->  contains flat structure for articles component with scully selector in html file.
 
 
 ## Development server
