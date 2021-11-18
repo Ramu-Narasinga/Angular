@@ -1,0 +1,6 @@
+<textarea
+  [ngModel]='document.doc'
+  (ngModelChange)='editDoc($event, document.id)'
+  placeholder='Start typing...'
+></textarea>
+<!-- (keyup)='editDoc()' -->
